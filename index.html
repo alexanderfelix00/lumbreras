@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LUMBRERAS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="c-logo">
+            <img src="Img/logo-book-02.png" alt="Logo">
+            <h1>LUMBRERAS</h1>
+        </div>
+        <ul class="navbar">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#product">PRODUCTS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <section class="main" id="home">
+        <div class="c-text">
+            <p>Welcome</p>
+            <p>Let's study!</p>
+        </div>
+        <div class="c-book-fly">
+            <img src="Img/book-red-01.gif" alt="">
+            <img src="Img/book-red-02.jpg" alt="" id="book2">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <article>
+                <div class="head-article">
+                    <h3>MISSION</h3>
+                </div>
+                <div class="content">
+                    <p>
+                        We are an editorial committed to the democratization of education and culture in the country;
+                        dedicated to create, innovate and produce high quality scientific and humanistic texts
+                        Academic and innovative teaching.
+                    </p>
+                </div>
+            </article>
+            <article>
+                <div class="head-article">
+                    <h3>VISION</h3>
+                </div>
+                <div class="content">
+                    <p>
+                        To be a nationally recognized publisher for the quality of our publications, for our humanistic
+                        organizational culture and for our social commitment
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="product" id="product">
+        <h2>PRODUCTS</h2>
+        <div class="c-products">
+            <div class="p-row">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="Img/book-red-01.gif" alt="">
+                    </div>
+                    <div class="card-footer">
+                        Libro Aritmetica - S/30.00
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="Img/book-red-01.gif" alt="">
+                    </div>
+                    <div class="card-footer">
+                        Libro Aritmetica - S/30.00
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="Img/book-red-01.gif" alt="">
+                    </div>
+                    <div class="card-footer">
+                        Libro Aritmetica - S/30.00
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="Img/book-red-01.gif" alt="">
+                    </div>
+                    <div class="card-footer">
+                        Libro Perfecto :)
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="Img/book-red-01.gif" alt="">
+                    </div>
+                    <div class="card-footer">
+                        Libro Aritmetica - S/30.00
+                    </div>
+                </div>
+            </div>
+            <div class="p-row">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="Img/book-red-01.gif" alt="">
+                    </div>
+                    <div class="card-footer">
+                        Libro Aritmetica - S/30.00
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="Img/book-red-01.gif" alt="">
+                    </div>
+                    <div class="card-footer">
+                        Libro Aritmetica - S/30.00
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="Img/book-red-01.gif" alt="">
+                    </div>
+                    <div class="card-footer">
+                        Libro Aritmetica - S/30.00
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="Img/book-red-01.gif" alt="">
+                    </div>
+                    <div class="card-footer">
+                        Libro Aritmetica - S/30.00
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="Img/book-red-01.gif" alt="">
+                    </div>
+                    <div class="card-footer">
+                        Libro Aritmetica - S/30.00
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="contact">
+
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script>
+        TweenMax.from(".nav", 2, {
+            delay: .5,
+            x: -1000,
+            opacity: 0,
+            ease: Expo.easeInOut
+        })
+        TweenMax.from(".main img", 3, {
+            delay: 1.1,
+            opacity: 0,
+            y: 20,
+            scale: 0,
+            ease: Expo.easeInOut
+        });
+        TweenMax.from(".c-text", 2, {
+            delay: 1.5,
+            y: 50,
+            opacity: 0,
+            ease: Expo.easeInOut
+        })
+    </script>
+</body>
+
+</html>
